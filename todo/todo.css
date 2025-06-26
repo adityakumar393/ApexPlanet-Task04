@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+  padding: 1em;
+  background: #f0f0f0;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px 0;
+}
+
+li {
+  margin-top: 10px;
+  cursor: pointer;
+}

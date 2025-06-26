@@ -1,0 +1,22 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 1em;
+  font-family: sans-serif;
+}
+
+#productContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.product {
+  flex: 1 1 200px;
+  border: 1px solid #ccc;
+  padding: 1em;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
